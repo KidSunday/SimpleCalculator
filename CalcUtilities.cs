@@ -25,7 +25,8 @@ namespace SimpleCalculator
 
         public static double Divide(double double1, double double2)
         {
-            if (double1 == 0 || double2 == 0)
+            //avoid divide by zero error
+             if (double1 == 0 || double2 == 0)
             {
                 return 0;
             }

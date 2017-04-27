@@ -18,6 +18,7 @@ namespace SimpleCalculator
             {
                 Console.Write("(A)dd (S)ubtract (M)ultiply (D)ivide : ");
                 
+                //Get single Char
                 ConsoleKeyInfo info = Console.ReadKey();
                 string operation = info.Key.ToString();
 
